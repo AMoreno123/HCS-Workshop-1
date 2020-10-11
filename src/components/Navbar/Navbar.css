@@ -4,9 +4,15 @@
   width: 60%;
   align-items: center;
   margin: 16px 0px;
+  color: white;
 }
 
 .info-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  color: white;
 }
 
 .info-item {
@@ -17,12 +23,19 @@
   margin: 0;
   justify-content: center;
   align-items: center;
-  color: #666666;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 400;
 }
 
 .nav-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 4px solid rgb(78, 2, 66);
+  border-bottom: 4px solid rgb(43, 26, 139);
+  width: 50%;
+  background: black;
 }
 
 .nav-item {
@@ -35,5 +48,5 @@
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-  color: gray;
+  color: white;
 }

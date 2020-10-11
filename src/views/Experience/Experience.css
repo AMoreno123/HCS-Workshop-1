@@ -1,5 +1,8 @@
 .experience-background {
   display: flex;
+  color: white;
+  justify-content: left;
+  font-size: small;
 }
 
 .timeline-background {
@@ -8,8 +11,8 @@
 
 .timeline-item {
   display: flex;
-  width: 50%;
-  height: 120px;
+  width: 80%;
+  height: 150px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -17,21 +20,20 @@
 }
 
 .timeline-item:hover {
-  -webkit-transform: scale(2);
-  transform: scale(2);
-  background-color: cornflowerblue;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  background-color: rgba(52, 0, 134, 0.568);
 }
 
 .timeline-ball {
   position: absolute;
   width: 24px;
   height: 24px;
-  border-radius: 12px;
-  background: crimson;
+  border-radius: 20px;
 }
 
 .experience-info {
-  padding: 24px;
+  padding: 25px;
   font-size: 10pt;
 }
 
@@ -45,17 +47,18 @@ p {
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: crimson;
+  background: black;
   position: -webkit-sticky;
   position: sticky;
   top: 48px;
   justify-content: center;
   align-items: center;
-  margin: 32px;
+  margin: 35px;
+  color: white;
 }
 
 .highlight-background h1,
 h4,
 p {
-  margin: 8px;
+  margin: 6px;
 }
