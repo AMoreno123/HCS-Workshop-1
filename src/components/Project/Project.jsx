@@ -12,7 +12,7 @@ export default function Project(props) {
   > 
 
   <div className="project-image">
-    <img className= "project-image" src = {props.source}/>
+    <img className= "project-image" src = {props.source} alt= "" />
   </div>
   
   <div className= "project-info">

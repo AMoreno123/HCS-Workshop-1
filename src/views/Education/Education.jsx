@@ -13,7 +13,7 @@ function SchoolDetails(props) {
   }
 
 export default function EducationScreen() {
-    const [activeSchoolDetails, setActiveSchoolDetails] = React.useState(1);
+    const [activeSchoolDetails, setActiveSchoolDetails] = React.useState("");
 
     return (
         <div className= "ed-background">
@@ -29,6 +29,7 @@ export default function EducationScreen() {
                         </SchoolDetails>
 
             </div>
+            <h1>{activeSchoolDetails}</h1>
         </div>
     )
   }

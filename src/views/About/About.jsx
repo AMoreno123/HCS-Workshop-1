@@ -22,7 +22,7 @@ export default function AboutScreen() {
       <div className="screen-background">
         <div className="intro-background">
           <div className="intro-item">
-            <img src={NotCutePic} className="intro-picture" />
+            <img src={NotCutePic} className="intro-picture" alt="" />
           </div>
           <div className="intro-item" style={{marginTop: "15px"}}>
             Hello! My name is Aracely, and I'm currently a college freshman

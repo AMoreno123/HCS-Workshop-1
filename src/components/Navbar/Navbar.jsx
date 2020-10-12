@@ -21,26 +21,16 @@ export default function Navbar() {
           <Link 
             className="info-link"
             to={{pathname: "https://github.com/racemore"}}
-            target="_blank"
-            >
+            target="_blank">
               GitHub
           </Link>
         </div>
       </div>
       <div className="nav-background">
-        <Link className="nav-link" to={{pathname: "\about"}}>
-          About
-        </Link>
-        <Link className="nav-link" to={{pathname: "\education"}}>
-          Education
-        </Link>
-        <Link className="nav-link" to={{pathname: "\experience"}}>
-          Experience
-        </Link>
-        <Link className="nav-link" to={{pathname: "\projects"}}>
-          Projects
-        </Link>
-      
+        <Link className="nav-link" to={{pathname: "about"}}>About</Link>
+        <Link className="nav-link" to={{pathname: "education"}}>Education</Link>
+        <Link className="nav-link" to={{pathname: "experience"}}>Experience</Link>
+        <Link className="nav-link" to={{pathname: "projects"}}>Projects</Link>
       </div>
     </>
   );
